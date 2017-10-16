@@ -1,0 +1,232 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	color: #000;
+	line-height: 1.5;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+	max-width: 90%;
+  margin: 0 auto;
+  width: 1024px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body {
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+header {
+		background-color: black;
+		background-size: cover;
+		max-width: 100%;	
+		padding: 5px;
+		border-bottom: 5px solid yellow;
+		}
+h1		{
+		color: #FFF653;	
+		font-family: "Merriweather";
+		font-size: 60px;
+		margin-bottom: 50px;
+		}
+header nav 	{
+		float: right;
+		}
+header li	{
+		display: inline-block;
+			}
+li a	{
+		color:white;
+		text-decoration: none;
+		text-align: right;
+		font-size: 25px;
+		margin: 0px 20px;
+		}
+header li:nth-child(-n+3) a{
+		text-transform: uppercase;
+		font-family: "Oswald";
+		}
+.tagline	{
+		background-color: #C6C6C6;
+		padding: 20px 0px;
+		font-family: "Merriweather";
+		}
+h2 		{
+		font-size: 40px;
+		text-align: center;
+		}
+.strikethrough_gray 	{
+	text-decoration: line-through;
+	color: gray;
+		}
+.yellow_underline 	{
+	text-decoration: underline;
+	text-decoration-color: yellow;
+		}
+.middle 	{
+		background: url(../images/coworking.jpg) no-repeat center;
+		background-size: cover;
+		padding: 25px;
+		}
+.middle div 	{
+		text-align: justify center;
+		background-color: rgba(243,243,243,0.75);
+		border: solid grey 1px;
+		width: 300px;
+		padding: 25px;
+		font-size: 25px;
+		font-weight: 150;
+		float: right;
+		}
+h3 		{
+		font-weight: 800;
+		font-size: 30px;
+		}
+.middle nav 	{
+		background-color: yellow;
+		margin-top: 20px;
+		text-align: center;
+		padding: 2px 0px;
+		border-radius: 5px;
+		}
+.middle a 	{
+		font-weight: 800;
+		text-decoration: none;
+		color: black;
+		text-transform: uppercase;
+		font-size: 25px;
+		}
+.end 	{
+		padding: 40px 0px;
+		margin-bottom: 180px;
+		}
+.end div 	{
+		float: left;
+		width: 33.3333333333333%;
+		text-align: left;
+		font-size: 25px;
+		height: 250px;
+		padding: 20px 30px;
+		}
+.end div:nth-of-type(-n+2)	{
+	border-right: 1px gray solid;
+		}
+.end nav 	{
+		margin: 30px; 
+		background-color: #AAAAAA;
+		border-radius: 2px;
+		padding: 10px;
+		text-align: center;
+		}
+.end a 	{
+		text-decoration: none;
+		font-size: 25px;
+		color: black;
+		font-weight: 800;
+		text-transform: uppercase;
+
+		}
+footer 	{
+		background-color: black;
+		height: 50px;
+		color: #C6C6C6;
+		padding-top: 10px;
+		}
+.small h1 	{
+		text-align: left;
+		padding: 45px 0px;
+		display: inline-block;
+		font-size: 30px;
+		margin-bottom: 0px;
+		}
+.small li 	{
+		padding: 50px 0px;
+		}
+.designer 	{
+		background-color: #C6C6C6;
+		}
+.developers 	{
+		background-color: #C6C6C6;
+		}
+.multiple_boxes 	{
+		padding: 2%;
+		background-color: #C6C6C6;
+		}
+.white_box {
+		margin: 1%;
+		width: 22%;
+		float: left;
+		padding: 1%;
+		background-color: white;
+		}
+.gray_box 	{
+		background-color: #C6C6C6;
+		height: 200px;
+		text-align: center;
+		padding: 90px 0px;
+		margin-bottom: 10px;
+		}
+.multiple_boxes a 	{
+		margin: 10px 2px;
+		background-color: #696969;
+		text-decoration: none;
+		color: white;
+		text-transform: uppercase;
+		border-radius: 5px;
+		padding: 4px;
+
+		}
+.white_box nav 	{
+		background-color: yellow;
+		margin-top: 40px;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 800px;
+		border-radius: 5px;
+		padding: 4px;
+		color: black;
+		}
+.white_box a:last-child 	{
+	background-color: yellow;
+	color: black;
+	font-weight: 800;
+	}
